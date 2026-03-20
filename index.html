@@ -1,28 +1,38 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="bs">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.65">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bihackarta – Interaktivna karta Bihaća</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="nl"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;title&gt;Karta Bihaca App&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Moj Bihac app&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p&gt;The base is working.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+
+  <header class="site-header">
+    <h1>🗺️ Bihackarta</h1>
+    <p>Interaktivna karta Bihaća</p>
+  </header>
+
+  <main>
+    <section class="map-section">
+      <div class="map-placeholder">
+        <p>Karta se ovdje učitava...</p>
+        <p class="map-hint">📍 Leaflet.js karta će biti ovdje</p>
+      </div>
+    </section>
+
+    <section class="locations-section">
+      <h2>Lokacije</h2>
+      <div id="locations-list" class="locations-grid">
+        <!-- Lokacije se učitavaju iz script.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Bihackarta</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
